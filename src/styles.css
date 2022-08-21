@@ -1,0 +1,36 @@
+.App {
+ font-family: 'Rubik Distressed', cursive;
+}
+
+.start-game-con {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+
+  height: 100vh;
+}
+
+.start-game-content {
+   display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:60%;
+  
+}
+
+.start-title {
+  font-size:3rem;
+}
+
+.startGameBtn {
+ width:50%;
+ padding: 0.3em 0.7em;
+ border-radius: 100px;
+ cursor:pointer;
+}
+
+.startGameBtn:hover {
+  opacity: 0.8;
+}
